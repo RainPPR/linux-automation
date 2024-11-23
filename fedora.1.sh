@@ -6,7 +6,6 @@ sudo sed -e 's|^metalink=|#metalink=|g' \
 rpm-ostree upgrade
 rpm-ostree install --assumeyes --allow-inactive --idempotent \
 	gcc gcc-c++ make cmake automake clang llvm lld lldb gdb \
-	yasm nasm ccache doxygen ctags cppcheck \
-	fpc ninja-build nodejs git unzip tar zip \
-	wget curl vim mpv vlc obs-studio libreoffice \
-	python3 pip python3-pip python3-ipython
+	yasm nasm ccache doxygen ctags cppcheck fpc ninja-build \
+	unzip tar zip wget curl vim git nodejs mpv vlc obs-studio \
+	python3 pip python3-pip python3-ipython libreoffice \
