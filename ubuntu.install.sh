@@ -15,6 +15,5 @@ sudo apt install -y \
 	ssh unzip tar zip wget curl vim git nodejs npm  \
 	python3 pip python3-pip ipython3 python-is-python3
 sudo apt autoremove -y
-echo "Press enter to continue . . ."
-read -s
+read -p "Press enter to continue . . ."
 sudo apt install -y mpv vlc obs-studio libreoffice-common
